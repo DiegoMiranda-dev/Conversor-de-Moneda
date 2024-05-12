@@ -19,11 +19,14 @@ public class Main {
             System.out.println("--------------------------------------");
             if (opcion == 0) {
                 System.out.println("Saliendo...");
+                System.out.println("Programa finalizado con éxito c:");
                 break; // Sale del bucle do-while si opcion es 0
             }
             System.out.println("Introduzca la cantidad a cambiar: ");
             double cantidad = sc.nextDouble();
             System.out.println("--------------------------------------");
+            System.out.println("--------------------------------------");
+
 
             Conversor conv = null;
 
